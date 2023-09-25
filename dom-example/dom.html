@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DOM Workshop</title>
+  </head>
+  <body>
+    <button id="myButton">Click me!</button>
+    <div id="output"></div>
+
+    <script>
+      // Select the button element
+      let button = document.getElementById("myButton");
+      let output = document.getElementById("output");
+
+      // Add an event listener
+      button.addEventListener("click", function () {
+        // Change text when the button is clicked
+        output.textContent = "Button clicked!";
+
+        // Create a new paragraph element
+        let newParagraph = document.createElement("p");
+        newParagraph.textContent = "A new paragraph was added!";
+        document.body.appendChild(newParagraph);
+      });
+    </script>
+  </body>
+</html>
