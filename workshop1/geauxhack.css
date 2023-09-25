@@ -1,0 +1,34 @@
+p {
+    color: green;
+    font-size: 20px;
+}
+
+.purple {
+    color: purple;
+    background-color: lightpink;
+
+    height: 80px;
+    width:240px;
+    border: 3px solid black;
+
+    padding: 10px 11px 4px 8px;
+    /* position: absolute; */
+    float: right;
+
+}
+
+#milan {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+li:hover {
+    font-weight: bold;
+}
+
+ol li {
+    text-align: center;
+}
+
+.hi {
+    color: pink;
+}
